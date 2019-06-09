@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pizza"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="PIZZASSO"
+        android:background="@color/title"
+        android:textSize="50dp"
+        android:textColor="@color/whiteColor"
+        android:textAlignment="center"
+        android:id="@+id/txt1"/>
+
+        <Button
+            android:id="@+id/adr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="135dp"
+            android:text="Add address" />
+
+        <Button
+            android:id="@+id/men"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adr"
+            android:layout_marginTop="27dp"
+            android:text="Menu" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/men"
+            android:layout_marginTop="27dp"
+            android:text="OFFERS"
+            android:id="@+id/of"/>
+
+        <TextView
+            android:id="@+id/con"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/men"
+            android:layout_marginTop="179dp"
+            android:fontFamily="cursive"
+            android:text="CONTACT US:"
+            android:textColor="@color/blackColor"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/con"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/call"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/call"
+            android:layout_below="@id/con"
+            android:id="@+id/fb"
+            android:background="@drawable/fb"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/fb"
+            android:layout_below="@id/con"
+            android:id="@+id/mail"
+            android:background="@drawable/gm"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/call"
+            android:id="@+id/inf"
+            android:textColor="@color/whiteColor"
+            android:hint="Hello"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+
+</RelativeLayout>
+
+</LinearLayout>
