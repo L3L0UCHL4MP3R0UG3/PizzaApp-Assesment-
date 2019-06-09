@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class Menu extends AppCompatActivity {
     ListView list;
-    String[] list1={"Plain Cheese","Crispy onion","Veggie delight","Golden chicken","Smoked meat","Spicy veg"};
+    String[] list1={"Plain Cheese","Crispy onion","Veggie delight","Golden chicken","Smoked meat","Spicy veg""BBQ delight","Cheesy Surprise","Mushroom farm","Cheese burst"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
